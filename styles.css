@@ -1,0 +1,119 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+body {
+  background-color: #393E46;
+}
+
+h1 {
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 7.5rem;
+  color: #4ECCA3;
+}
+
+p {
+  font-size: 2rem;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+}
+
+.dice {
+  margin-right: 1rem;
+}
+
+img {
+  width: 12rem;
+}
+
+footer {
+  margin-top: 5%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+}
+
+.btn {
+  position: relative;
+  top: 2rem;
+  outline: none;
+  padding: .8rem 2rem;
+  border-radius: 1.5rem;
+  cursor: pointer;
+  border: 2px solid red;
+  background-color: transparent;
+  color: red;
+  transition: .3s ease-in-out;
+  margin-right: 1rem;
+}
+
+.btn:hover {
+  background-color: white;
+  text-shadow: 0px 0px 1px black;
+}
+
+/* MEDIA QUERY TABLET */
+
+@media (max-width: 1064px){
+  .container h1 {
+    font-size: 5rem;
+  }
+
+  .dice img {
+    width: 11rem;
+  }
+
+  footer {
+    margin-top: 5%;
+    font-size: 1rem;
+    color: #EEEEEE;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+  }
+}
+
+/* MEDIA QUERY HANDPHONE */
+
+@media (max-width: 768px){
+  .container{
+    width: 90%;
+  }
+
+  .container h1 {
+    font-size: 3rem;
+  }
+
+  .dice img {
+    width: 10rem;
+  }
+
+  .container p {
+    font-size: 1.8rem;
+    color: #4ECCA3;
+    font-family: 'Indie Flower', cursive;
+  }
+
+  .btn {
+    margin-bottom: 1.5rem;
+    padding: .6rem 1.8rem;
+    margin-right: .3rem;
+    margin-left: .3rem;
+  }
+
+  footer {
+    font-size: 1rem;
+  }
+}
